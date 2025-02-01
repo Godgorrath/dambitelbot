@@ -14,7 +14,7 @@ def send_welcome(message):
 # Функция для обработки команды /help
 @bot.message_handler(commands=['help'])
 def send_help(message):
-    bot.reply_to(message, "Это пстой администраторский бот. Используйте команды /start и /help.")
+    bot.reply_to(message, "Это пстой торский бот. Используйте команды /start и /help.")
 
 # Функция для добавления администратора
 @bot.message_handler(commands=['setadmin'])
